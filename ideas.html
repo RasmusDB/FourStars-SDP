@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Idea Wall · PinkLazerCat Redesign</title>
+  <meta name="description" content="Twelve improvement ideas for the PinkLazerCat web shop, grouped by theme, and the idea our team chose.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>PinkLazerCat Redesign</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="ideas.html" aria-current="page">Idea Wall</a></li>
+          <li><a href="prototype.html">Prototype</a></li>
+          <li><a href="business-model.html">Business Model</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Develop</p>
+        <h1>Idea Wall</h1>
+        <p class="lede">We collected ideas for improving the shop on sticky notes. Here is the wall, written out, with the thinking behind each idea one click away.</p>
+      </div>
+    </section>
+
+    <!-- The wall itself -->
+    <section class="section" style="padding-top:1rem">
+      <div class="container split split--wide-left">
+        <figure class="reveal">
+          <img src="images/idea-wall.jpg" width="800" height="627" alt="Twelve pink sticky notes with improvement ideas, such as: search bar not using labels properly, past events categorized separately, home page button missing, H1 font too big." loading="lazy">
+          <figcaption>Our idea wall: twelve ideas for improving the web shop.</figcaption>
+        </figure>
+        <div class="reveal">
+          <h2>Ideas and themes</h2>
+          <p>Open a card to read what the idea means and why it came up. We sorted the twelve ideas into three themes: how people get around the site, how it looks, and how search and events work.</p>
+          <div class="todo">
+            <strong>Draft</strong>
+            <p>The three themes and the card descriptions below are first drafts written from the sticky notes and our findings. Edit them to match what the team actually discussed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Idea cards -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="idea-tools">
+          <button type="button" class="btn btn--ghost" id="toggle-all" aria-expanded="false">Expand all ideas</button>
+          <p>Tip: cards marked <span class="tag">Supports chosen idea</span> feed into the idea we picked below.</p>
+        </div>
+
+        <div class="idea-group">
+          <h3>Navigation &amp; layout <small>5 ideas</small></h3>
+          <div class="ideas">
+
+            <details class="idea">
+              <summary><span>Home page button missing</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>There is no clear way back to the front page from the inner pages.</p>
+                <p>A visible home button, or a logo that links to the front page, would let visitors start over without using the browser's back button.</p>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>About Us section into the navbar</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>Move the About Us content into the navigation, so visitors can find the story behind the shop in one click and the front page has less to carry.</p>
+                <div class="tags"><span class="tag">Supports chosen idea</span></div>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>Front page filled to the brim with things: move products into their appropriate navbar</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>The front page shows too much at once. Product groups could live under their own navbar entries, so the front page stays calm and easy to scan.</p>
+                <div class="tags"><span class="tag">Supports chosen idea</span></div>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>The header and footer are too large</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>Both take up a lot of screen space. Slimmer versions leave more room for the actual content. This matches our finding that the navbar covers almost half of the view.</p>
+                <div class="tags"><span class="tag">Supports chosen idea</span></div>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>Remove the “PINKLAZERCAT INSTAGRAMISSA” section entirely</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>The section heading is Finnish for “PinkLazerCat on Instagram”. It makes the front page longer and busier. Removing it, or replacing it with a small link to the account, would simplify the page.</p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="idea-group">
+          <h3>Visual design <small>5 ideas</small></h3>
+          <div class="ideas">
+
+            <details class="idea">
+              <summary><span>H1 font too big, should be scaled down a bit</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>The main headings are very large and dominate the page. A slightly smaller size keeps the hierarchy clear while giving the content more room.</p>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>The colour scheme is stuffy with the dark colours: brighter colours might offset this</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>The dark colours make the pages feel heavy. Brighter colours could make the shop feel lighter and more inviting. This links to our finding that the pages feel stuffy.</p>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>The pink text is hard to read on the purple background</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>Pink text on a purple background has weak contrast. Changing the text colour or the background would make it readable for everyone.</p>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>Refurbishing the overall look to make it more accessible &amp; attractive</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>A wider refresh of the site's look, covering colours, type and spacing, so that the shop is both nicer to look at and easier to use.</p>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>The elements (i.e. buttons) appearance is not uniform</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>Buttons and other elements look different from page to page. One consistent style would make the site feel more trustworthy and easier to learn.</p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="idea-group">
+          <h3>Search &amp; events <small>2 ideas</small></h3>
+          <div class="ideas">
+
+            <details class="idea">
+              <summary><span>Search bar not using labels properly</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>The search does not use labels in a way that helps people find products. This answers our finding that search does not work as expected.</p>
+                <div class="tags"><span class="tag">Noticed by our persona</span></div>
+              </div>
+            </details>
+
+            <details class="idea">
+              <summary><span>Past events categorized separately</span>
+                <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7l6 6 6-6"/></svg></summary>
+              <div class="idea-body">
+                <p>Old events stay in the events list. Moving them to their own section keeps current events easy to see. This answers our finding that the events page should be updated more often.</p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selection -->
+    <section class="section" id="selection">
+      <div class="container">
+        <p class="eyebrow">Develop</p>
+        <h2>Selection</h2>
+        <div class="split">
+          <div class="selection-quote reveal">
+            <h3>Which idea did we choose, and why?</h3>
+            <blockquote class="fi" lang="fi">Keräsimme korjausehdotuksia ylös. Kysyimme ostajapersoonaa myös katsomaan sivuja, jotta saisimme mahdollisesti erilaisen kuvan verkkosivuista. Hänen mielestään sivut olivat kivat, tykkäsi puolestaan navbarista. Hän huomasi sen, että hakukone ei toiminut toivotusti.</blockquote>
+            <blockquote class="fi" lang="fi">Todellinen ongelmamme sivuilla siis voisi olla hakukoneen parantaminen, sekä navbarin pienentäminen. Eli toinen ongelma on userpersonan johdosta valikoitu ja toinen meidän valikoima. Valikoimme navbarin pienentämisen, koska se vie niin ison tilan sivuilta.</blockquote>
+            <p class="gloss">We collected suggestions for fixes. We also asked the buyer persona to look at the site, to get a possibly different view. They thought the pages were nice and liked the navbar. They noticed that search did not work as expected. So our real problem could be improving search and shrinking the navbar. One problem comes from the persona and the other is our own pick. We chose to shrink the navbar because it takes up so much space on the pages.</p>
+          </div>
+
+          <div class="card reveal">
+            <span class="tag">Chosen idea</span>
+            <h3 style="margin-top:.6rem" lang="fi">Navbarin pienentäminen ja sivujen yleinen selkeyttäminen</h3>
+            <p class="gloss" style="margin-top:-.25rem">Making the navbar smaller and making the pages clearer overall.</p>
+            <h4>Expected benefit</h4>
+            <blockquote class="fi" lang="fi">Sivut ovat käytettävämmät, kun navbar ei peitä niin suurta aluetta ja navigointi sivuilla on yleisesti selkeämpää.</blockquote>
+            <p class="gloss">The pages are more usable when the navbar does not cover so much area, and navigation is clearer overall.</p>
+            <div class="todo">
+              <strong>To add</strong>
+              <p><b>How it works:</b> describe what the user does and what the service does. <b>Still to find out:</b> what you still need to learn.</p>
+            </div>
+          </div>
+        </div>
+
+        <figure style="margin-top:2rem">
+          <div class="placeholder" role="img" aria-label="Image placeholder: idea card or sketch of the chosen idea">Idea card or sketch of the chosen idea</div>
+          <figcaption>[Caption: the chosen idea in a sketch.]</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="container">
+      <nav class="pager" aria-label="Page navigation">
+        <a href="research.html"><small>Previous</small><span>Research</span></a>
+        <a class="next" href="prototype.html"><small>Next</small><span>Prototype</span></a>
+      </nav>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>PinkLazerCat Redesign</strong> · Service Design Portfolio</p>
+      <p>Milli Haverinen · Kati Laakso · Sophie Andonov · Rasmus Bergholm</p>
+    </div>
+  </footer>
+</body>
+</html>

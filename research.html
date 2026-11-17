@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · PinkLazerCat Redesign</title>
+  <meta name="description" content="Service context, benchmarking, user groups, findings, persona and design question for the PinkLazerCat web shop.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>PinkLazerCat Redesign</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html" aria-current="page">Research</a></li>
+          <li><a href="ideas.html">Idea Wall</a></li>
+          <li><a href="prototype.html">Prototype</a></li>
+          <li><a href="business-model.html">Business Model</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Discover &amp; Define</p>
+        <h1>Research</h1>
+        <p class="lede">What the service is, what we compared it with, who uses it, and what we found out.</p>
+      </div>
+    </section>
+
+    <nav class="subnav" aria-label="On this page">
+      <div class="container">
+        <ul>
+          <li><a href="#context">Service &amp; challenge</a></li>
+          <li><a href="#benchmarking">Benchmarking</a></li>
+          <li><a href="#users">User groups</a></li>
+          <li><a href="#findings">Findings</a></li>
+          <li><a href="#persona">Persona</a></li>
+          <li><a href="#questions">Design question</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Service context -->
+    <section class="section" id="context">
+      <div class="container split split--wide-left">
+        <div>
+          <p class="eyebrow">Discover</p>
+          <h2>Service and challenge</h2>
+          <blockquote class="fi" lang="fi">Yritys jonka valitsimme on PinkLazerCat verkkokauppa. Tarkoituksena on tehdä ehdotukset mahdollisiin muutoksiin verkkosivujen käytettävyyden parantavaksi.</blockquote>
+          <p class="gloss">The company we chose is the PinkLazerCat web shop. The aim is to propose changes that could improve the usability of the website.</p>
+          <div class="todo">
+            <strong>To add</strong>
+            <p>Why does this matter? Add one or two sentences on the goal and why it is worth improving.</p>
+          </div>
+        </div>
+        <figure>
+          <div class="placeholder" role="img" aria-label="Image placeholder: PinkLazerCat front page screenshot">Screenshot of the PinkLazerCat front page</div>
+          <figcaption>[Caption: what the front page looks like today.]</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Benchmarking (moved here from the landing page) -->
+    <section class="section section--alt" id="benchmarking">
+      <div class="container">
+        <div class="split split--wide-left">
+          <div>
+            <p class="eyebrow">Discover</p>
+            <h2>Benchmarking</h2>
+            <blockquote class="fi" lang="fi">Verrattiin esimerkkinä Lindexin verkkosivuihin ja miten navbar siellä toimii ja mitä etusivulla ylipäätään tapahtuu.</blockquote>
+            <p class="gloss">We compared the shop to the Lindex website as an example: how the navbar works there and what happens on the front page in general.</p>
+            <div class="todo">
+              <strong>To add</strong>
+              <p>Sources and links for the comparison. Remember to credit where any screenshot comes from.</p>
+            </div>
+          </div>
+          <figure>
+            <div class="placeholder" role="img" aria-label="Image placeholder: Lindex navbar and front page">Screenshot: the Lindex navbar and front page</div>
+            <figcaption>[Caption: what works elsewhere.]</figcaption>
+          </figure>
+        </div>
+        <div class="todo" style="margin-top:2rem">
+          <strong>Key takeaway — to write</strong>
+          <p>What did this comparison suggest for your project? (This part is still empty in the template.)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- User groups -->
+    <section class="section" id="users">
+      <div class="container">
+        <p class="eyebrow">Discover</p>
+        <h2>User groups</h2>
+        <div class="split">
+          <div class="reveal">
+            <h3>Who uses the service?</h3>
+            <blockquote class="fi" lang="fi">Verkkosivuja käyttää ihmiset, jotka haluavat tilata tarroja, kangasmerkkejä sekä muita yrittäjän tekemiä tuotteita. Suunnittelemme samalle kohdeyleisölle käytettävämmät sivut.</blockquote>
+            <p class="gloss">The website is used by people who want to order stickers, fabric patches and other products made by the entrepreneur. We are designing more usable pages for the same audience.</p>
+          </div>
+          <div class="reveal">
+            <h3>How we learned about them</h3>
+            <blockquote class="fi" lang="fi">Havainnot yrittäjän somesta, kommenttien perusteella. Eniten nuoria naisoletettuja.</blockquote>
+            <p class="gloss">Observations from the entrepreneur's social media, based on the comments. Mostly young people who appear to be women.</p>
+            <div class="todo">
+              <strong>To add</strong>
+              <p>Any other method you used, such as interviews or desk research.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Findings -->
+    <section class="section section--alt" id="findings">
+      <div class="container">
+        <p class="eyebrow">Discover</p>
+        <h2>Key findings</h2>
+        <div class="split split--wide-left">
+          <div class="card reveal">
+            <blockquote class="fi" lang="fi">Sivuilla navbar on liian suuri, peittää lähes puolet näkymästä, kun se kulkee koko ajan selatessa mukana. Hakutoiminto ei toimi toivotusti, vähän sekavat ja tunkkaiset sivut. Tapahtumasivu pitäisi päivittää useammin, jotta vanhat tapahtumat poistuisi listasta.</blockquote>
+            <h3>In short</h3>
+            <ul class="findings">
+              <li>The navbar is too large. It follows you as you scroll and covers almost half the view.</li>
+              <li>Search does not work as expected.</li>
+              <li>The pages feel somewhat messy and stuffy.</li>
+              <li>The events page should be updated more often so old events disappear from the list.</li>
+            </ul>
+          </div>
+          <div class="todo reveal">
+            <strong>To add</strong>
+            <h3>Assumptions</h3>
+            <p>The template asks you to separate findings from assumptions. For example, that the audience is mostly young women is an observation from social media comments only. Add yours here.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Persona -->
+    <section class="section" id="persona">
+      <div class="container">
+        <p class="eyebrow">Define</p>
+        <h2>Persona</h2>
+        <div class="persona">
+          <figure>
+            <div class="placeholder placeholder--tall" role="img" aria-label="Image placeholder: persona visual">Persona visual</div>
+          </figure>
+          <div class="card reveal">
+            <h3>A Laurea student</h3>
+            <dl>
+              <div>
+                <dt>Situation and goal</dt>
+                <dd>
+                  <span lang="fi">Laurea opiskelija ja hän haluaa ostaa haalarimerkin.</span><br>
+                  <span class="gloss" style="display:inline-block;margin:.25rem 0 0">A Laurea student who wants to buy an overall patch (<em>haalarimerkki</em>).</span>
+                </dd>
+              </div>
+              <div>
+                <dt>Evidence</dt>
+                <dd>
+                  <blockquote class="fi" lang="fi" style="margin-top:.25rem">Pyydettiin koulun käytävällä opiskelijalta tarkastelemaan sivuja, hän kertoi, että opiskelee sosionomiksi. Oletuksena oli, että hän ostaisi kyseisiltä sivuilta haalarimerkkejä, koska hän on opiskelija. Oli n. 25 vuotias.</blockquote>
+                  <p class="gloss">We asked a student in the school corridor to look at the site, and they said they study to become a social services graduate (<em>sosionomi</em>). Our assumption was that they would buy overall patches from the site because they are a student. About 25 years old.</p>
+                </dd>
+              </div>
+              <div>
+                <dt>Main difficulty</dt>
+                <dd>
+                  <span lang="fi">Hakukone ei toiminut toivotusti.</span><br>
+                  <span class="gloss" style="display:inline-block;margin:.25rem 0 0">The search did not work as expected. (From the Idea Wall section of the template.)</span>
+                </dd>
+              </div>
+            </dl>
+            <div class="todo" style="margin-top:1.25rem">
+              <strong>To add</strong>
+              <p>A name for the persona, and a note on which findings informed it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design question -->
+    <section class="section section--alt" id="questions">
+      <div class="container">
+        <p class="eyebrow">Define</p>
+        <h2>How might we…?</h2>
+        <p class="lede" style="margin-bottom:1.75rem">The template asks for your questions, with the chosen one highlighted. The Finnish notes list three things the persona was asked to do:</p>
+        <ol class="hmw">
+          <li>
+            <p lang="fi">Kysyttiin miten nettisivut toimivat.</p>
+            <p class="gloss">Asked how the website works.</p>
+          </li>
+          <li>
+            <p lang="fi">Pyydettiin kokeilemaan ostoprosessia.</p>
+            <p class="gloss">Asked them to try the purchase process.</p>
+          </li>
+          <li>
+            <p lang="fi">Pyydettiin testaamaan ominaisuuksia.</p>
+            <p class="gloss">Asked them to test the features.</p>
+          </li>
+        </ol>
+        <div class="chosen">
+          <span class="tag tag--draft">Draft, team to confirm</span>
+          <p class="big">How might we make the PinkLazerCat web shop easier to browse and search for students who want to buy a patch?</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <nav class="pager" aria-label="Page navigation">
+        <a href="index.html"><small>Previous</small><span>Home</span></a>
+        <a class="next" href="ideas.html"><small>Next</small><span>Idea Wall</span></a>
+      </nav>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>PinkLazerCat Redesign</strong> · Service Design Portfolio</p>
+      <p>Milli Haverinen · Kati Laakso · Sophie Andonov · Rasmus Bergholm</p>
+    </div>
+  </footer>
+</body>
+</html>

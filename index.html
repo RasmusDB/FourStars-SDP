@@ -1,25 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PinkLazerCat Redesign · Service Design Portfolio</title>
+  <meta name="description" content="A service design portfolio: how our team looked at the PinkLazerCat web shop and proposed changes to make it easier to use.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="js/main.js" defer></script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <h1>4/5 Stars</h1> <br>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>PinkLazerCat Redesign</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="ideas.html">Idea Wall</a></li>
+          <li><a href="prototype.html">Prototype</a></li>
+          <li><a href="business-model.html">Business Model</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <h2>Group Members:</h2>
-    <ul>
-        <li>Sophie Andonov</li>
-        <li>Rasmus Bergholm</li>
-        <li>Milli Haverinen</li>
-        <li>Kati Laakso</li>
-    </ul>
+  <main id="main">
 
-    <h2>Project Description:</h2>
-    <p>To be filled out later! This is a very coarse landing page for now.</p>
+    <!-- Hero: short project intro comes BEFORE the team -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Service design process</p>
+        <h1>PinkLazerCat Redesign</h1>
+        <p class="lede">We looked at the PinkLazerCat web shop and asked a simple question: what would make it easier to use? This portfolio follows the work from research to idea, prototype and business model.</p>
+        <div class="hero-actions">
+          <a class="btn" href="research.html">Read the research
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+          </a>
+          <a class="btn btn--light" href="#team">Meet the team</a>
+        </div>
+      </div>
+      <div class="hero-notes" aria-hidden="true">
+        <span>Navbar smaller</span>
+        <span>Search that works</span>
+        <span>Clearer front page</span>
+        <span>Brighter colours</span>
+      </div>
+    </section>
 
+    <!-- Team: cards alternate left / right -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The team</p>
+          <h2>Four people, one web shop</h2>
+          <p class="lede">Short introductions from each of us.</p>
+        </div>
+
+        <!-- To swap a placeholder portrait: put your photo in images/team/ and change the src (and the alt text). -->
+        <div class="team">
+          <article class="member reveal">
+            <img class="member-photo" src="images/team/milli-haverinen.svg" width="150" height="150" alt="Placeholder portrait for Milli Haverinen">
+            <div class="member-body">
+              <h3>Milli Haverinen</h3>
+              <p class="member-role">[Role or focus in the project]</p>
+              <p>[Write two or three sentences: what Milli worked on in this project and what she is interested in.]</p>
+            </div>
+          </article>
+
+          <article class="member reveal">
+            <img class="member-photo" src="images/team/kati-laakso.svg" width="150" height="150" alt="Placeholder portrait for Kati Laakso">
+            <div class="member-body">
+              <h3>Kati Laakso</h3>
+              <p class="member-role">[Role or focus in the project]</p>
+              <p>[Write two or three sentences: what Kati worked on in this project and what she is interested in.]</p>
+            </div>
+          </article>
+
+          <article class="member reveal">
+            <img class="member-photo" src="images/team/sophie-andonov.svg" width="150" height="150" alt="Placeholder portrait for Sophie Andonov">
+            <div class="member-body">
+              <h3>Sophie Andonov</h3>
+              <p class="member-role">[Role or focus in the project]</p>
+              <p>[Write two or three sentences: what Sophie worked on in this project and what she is interested in.]</p>
+            </div>
+          </article>
+
+          <article class="member reveal">
+            <img class="member-photo" src="images/team/rasmus-bergholm.svg" width="150" height="150" alt="Placeholder portrait for Rasmus Bergholm">
+            <div class="member-body">
+              <h3>Rasmus Bergholm</h3>
+              <p class="member-role">[Role or focus in the project]</p>
+              <p>[Write two or three sentences: what Rasmus worked on in this project and what he is interested in.]</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey: doorway to the other four pages -->
+    <section class="section section--alt" id="journey">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The process</p>
+          <h2>From research to a model for delivery</h2>
+        </div>
+        <div class="journey">
+          <a href="research.html" class="reveal">
+            <span class="step">Discover &amp; Define</span>
+            <h3>Research</h3>
+            <p>Service context, benchmarking, users, findings, persona and design question.</p>
+          </a>
+          <a href="ideas.html" class="reveal">
+            <span class="step">Develop</span>
+            <h3>Idea Wall</h3>
+            <p>Twelve ideas for improvement, and the one we chose.</p>
+          </a>
+          <a href="prototype.html" class="reveal">
+            <span class="step">Develop &amp; Deliver</span>
+            <h3>Prototype</h3>
+            <p>What we made, what we learned, and what comes next.</p>
+          </a>
+          <a href="business-model.html" class="reveal">
+            <span class="step">Deliver</span>
+            <h3>Business Model</h3>
+            <p>Who benefits, what value they get, and what it takes to deliver.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sources and AI (final portfolio slide of the template) -->
+    <section class="section" id="sources">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Final portfolio</p>
+          <h2>Sources &amp; use of AI</h2>
+        </div>
+        <div class="split">
+          <div class="todo reveal">
+            <strong>To add</strong>
+            <h3>Sources</h3>
+            <p>[List the sources for your research, benchmarks and any visuals you did not create. For example: the PinkLazerCat web shop, the Lindex website, and where the screenshots came from.]</p>
+          </div>
+          <div class="todo reveal">
+            <strong>To add</strong>
+            <h3>Use of AI</h3>
+            <p>[Say where and how you used AI. For example: this portfolio website was built with the help of Claude (Anthropic). Add anything else, such as translation or drafting help.]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>PinkLazerCat Redesign</strong> · Service Design Portfolio</p>
+      <p>Milli Haverinen · Kati Laakso · Sophie Andonov · Rasmus Bergholm</p>
+    </div>
+  </footer>
 </body>
 </html>
