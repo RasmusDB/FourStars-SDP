@@ -423,3 +423,5 @@ figcaption { margin-top: .6rem; font-size: .9rem; color: var(--muted); }
 .impl h4 { margin: 0 0 .35rem; }
 .impl h4 + p { margin: 0 0 1rem; }
 .impl .orig { margin: 0; }
+
+.findings + .orig { margin-top: 1rem; }
