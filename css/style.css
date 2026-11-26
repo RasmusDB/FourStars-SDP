@@ -173,6 +173,23 @@ a:hover { color: var(--ink); }
 .gloss { margin: 0 0 1.5rem; font-size: .95rem; color: var(--muted); }
 .gloss::before { content: "In English: "; font-weight: 600; }
 
+/* English is the main text; the Finnish original sits in a collapsed block */
+.orig { margin: 0 0 1.5rem; font-size: .95rem; }
+.orig summary {
+  display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; cursor: pointer;
+  color: var(--muted); font-weight: 500; list-style: none;
+}
+.orig summary::-webkit-details-marker { display: none; }
+.orig summary::before {
+  content: ""; width: .5rem; height: .5rem; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg); transition: transform .2s;
+}
+.orig[open] summary::before { transform: rotate(45deg); }
+.orig summary:hover { color: var(--ink); }
+.orig .fi { margin: .25rem 0 0; font-size: .98rem; color: var(--muted); }
+.alt { margin: .35rem 0 0; font-size: .9rem; color: var(--muted); font-style: italic; }
+.alt::before { content: "In Finnish: "; font-weight: 600; font-style: normal; }
+
 /* Things the team still has to write or add */
 .todo {
   border: 2px dashed var(--pink-strong); background: #fff6fc; border-radius: var(--radius);
