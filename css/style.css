@@ -190,6 +190,9 @@ a:hover { color: var(--ink); }
 .alt { margin: .35rem 0 0; font-size: .9rem; color: var(--muted); font-style: italic; }
 .alt::before { content: "In Finnish: "; font-weight: 600; font-style: normal; }
 
+.sources { margin: 0 0 1rem; padding-left: 1.2rem; display: grid; gap: .6rem; }
+.note { margin: 0; font-size: .92rem; color: var(--muted); }
+
 /* Things the team still has to write or add */
 .todo {
   border: 2px dashed var(--pink-strong); background: #fff6fc; border-radius: var(--radius);
@@ -216,6 +219,7 @@ a:hover { color: var(--ink); }
 }
 .placeholder--tall { aspect-ratio: 4 / 5; }
 figure { margin: 0; }
+.shot { width: 100%; height: auto; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); background: var(--paper); }
 figcaption { margin-top: .6rem; font-size: .9rem; color: var(--muted); }
 
 .split { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.5rem, 4vw, 3rem); align-items: start; }
