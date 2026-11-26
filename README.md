@@ -20,4 +20,4 @@
 - **Images:** replace a `<div class="placeholder">...</div>` with `<img src="images/your-file.png" alt="Describe the image">`.
 - **Idea cards:** each one is a `<details class="idea">` block in `ideas.html`. Copy one to add another.
 - **Navigation:** the menu is repeated in each HTML file, so a change to it has to be made in all five.
-- **Finnish text:** the team's own answers are kept in Finnish (marked `lang="fi"`), each followed by a short English summary. Delete the summaries if you do not want them.
+- **Languages:** English is the main language of the site. The team's original Finnish answers are kept in small collapsible "Original in Finnish" blocks (`<details class="orig">`, marked `lang="fi"`). Delete a block if you do not want to show the original.
